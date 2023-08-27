@@ -1,0 +1,39 @@
+Khái niệm Id và class nằm trong khái niệm Css Selectors
+Css selectors là cách mà gọi tới cách element(phần tử trong html) để css 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <h1 id="first-heading">Css selectors?</h1>
+        <h1 class="second-heading">Css selectors?</h1>
+        <h1 class="second-heading">Css selectors?</h1>
+        <h2 class="second-heading">ID & Class?</h2>
+        
+    </div>
+    
+</body>
+</html>
+
+<!--Về ID:
+     Khi css h1 thì tất cả các h1 sẽ bị ảnh hưởng nên cần đặt id 
+        - bên html: <h1 id="first-heading">Css selectors?</h1>
+        - bên css: #first-heading{
+        color: red;
+    
+    Về CSS vì id không trùng nhau, không hợp lệ, bị lỗi, khi muốn sử dụng một thuộc tinh chung cho nhiều đối tượng khác nhau dùng class
+        - bên html: 
+        <h1 class="second-heading">Css selectors?</h1>
+        <h1 class="second-heading">Css selectors?</h1>
+        <h2 class="second-heading">ID & Class?</h2>
+        - bên css: 
+        .second-heading{
+            color: aqua;
+            font-size: 20px;
+        }
+        } -->
