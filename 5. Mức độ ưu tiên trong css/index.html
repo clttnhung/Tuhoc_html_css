@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+    <!-- <style>
+        #heading-id{
+            color: brown;
+        }
+        h1#heading-id.heading-class{
+            color: rebeccapurple;
+        }
+        .heading-class{
+            color: blueviolet;
+        }
+        h1{
+            color: green;
+        }
+
+    </style> -->
+</head>
+<body>
+    <div>
+        <h1  id="heading-id" class="heading-class"> Priority?</h1>
+        <ol>
+            <li>Internal, External</li>
+            <li>Inline - 1000</li>
+            <li>#id - 100</li>
+            <li>.class - 10</li>
+            <li>tag - 1</li>
+            <li>Equal specificcity</li>
+            <li>Universal selector and inherited</li>
+        </ol>
+
+    </div>
+</body>
+</html>
+
+<!-- 1. Internal(trong file html), External(ngoài file như ở css)
+    Không cách nào ưu tiên hơn cách nào, cách nào gọi sau mới hơn thì được ưu tiên
+2. Thẻ nào sau nhiều điểm hơn thì được ưu tiên hơn    
+Inline - 1000 viết thẳng vào thẻ h1 style
+#id - 100
+.class - 10
+tag - 1
+
+3. Equal specificcity: Sự giống nhau khi gọi tới một element thì ông nào mới hơn thì được ưu tiên
+h1#heading-id.heading-class{
+    color: rebeccapurple;
+}
+cách gọi này được 1011 nên sẽ thắng
+4. Universal selector and inherited - 0 điểm: cái chung
+Dùng * hay html để cho tất cả thẻ, các element có chung style
+5. !important hơn cả 1000 điểm (nếu tất cả là important thì quay lại xét điểm) ví dụ:
+*{
+    color: red !important;
+} -->

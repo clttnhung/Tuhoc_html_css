@@ -1,0 +1,9 @@
+/* h1{
+    color: rgb(255, 0, 195);
+} */
+*{
+    color: red !important;
+}
+li{
+    color: black;
+}
