@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        html{
+            font-size: 20px;
+        }
+        .box{
+            width: 50%;
+            height: 100px;
+            background-color: red;
+        }
+        h1{
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> </div>
+    <h1> CSS units</h1>
+    <h2>1. Absolute units</h2>
+    <!--  Absolute units - đơn vị tuyệt đối  -->
+    <ul>
+        <li>px</li>
+        <!-- px là kích thước mà trình duyệt thay đổi nó cũng không thay đổi -->
+        <li>pt</li>
+        <li>cm</li>
+        <li>mm</li>
+        <li>inch</li>
+        <li>pc</li>
+    </ul>
+    <h2>2. Relatitve units</h2>
+    <!-- Relatitve units - đơn vị tương đối, nó phụ thuộc vào thẻ chứa nó nên nó sẽ thay đổi -->
+    <ul>
+        <li>%</li>
+        <!-- phụ thuộc vào thẻ body, bằng 1 nửa chiều ngang trình duyệt  -->
+        
+        <li>rem</li>
+        <!-- Nó sẽ phụ thuộc vào thẻ html, ví dụ 2 thì nhân đôi kích thước được định nghĩa trong html -->
+
+        <li>em</li>
+        <!-- Nó sẽ phụ thuộc vào thẻ cha của nó gần nhất mà có thuộc tính font-size -->
+        
+        <li>vw</li>
+        <li>vh</li>
+        <!-- vw - width, vh - height 
+        viewport width: chiều ngang trình duyệt, còn cái kia là chiều dọc 
+        ví dụ viết 1vw nó sẽ là 1% chiều ngang trình duyệt của trang web-->
+        
+        <li>vmin</li>
+        <li>vmax</li>
+        <li>ex</li>
+        <li>ch</li>
+    </ul>
+
+</body>
+</html>
