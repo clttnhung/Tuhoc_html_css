@@ -1,0 +1,20 @@
+/* Sử dụng lớp giả, để sau này muốn đổi màu không hợp thì có thể thay đổi tiện */
+
+:root{
+    --text-color: violet;
+}
+/* trong root gọi là global toàn cục
+còn trong h1 là local */
+
+h1{
+    --my-clor: green;
+    color: var(--my-clor);
+}
+
+h2{
+    color: var(--text-color);
+}
+
+h3{
+    color: var(--text-color);
+}
